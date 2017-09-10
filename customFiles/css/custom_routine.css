@@ -1,0 +1,51 @@
+.routineDivision-division{
+    font-family: "Arial";
+    
+}
+
+
+.routineDivision-description{
+	font-family: "Polaris",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+
+}
+
+.routineDivision-photo img{
+ width: 100px;
+}
+
+.routineDivision-information{
+    text-transform: uppercase;
+}
+
+.exerciseCount{
+	
+	color: #f01616;
+	font-weight: 700;
+
+}
+
+.exerciseName{
+
+	color: black;
+	font-weight: bold;
+	padding-top: 3px;
+	font-size: 90%;
+}
+
+
+.exerciseSets{
+padding: 15px;
+font-size: 25px;
+
+}
+
+.exerciseReps{
+padding: 15px;
+font-size: 25px;
+}
+
+.exerciseRest{
+padding: 15px;
+font-size: 25px;
+}
