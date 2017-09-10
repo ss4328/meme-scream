@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "BottomIntent",
+      "samples": [
+        "make bottom text as {bottom}"
+      ],
+      "slots": [
+        {
+          "name": "bottom",
+          "type": "AMAZON.Language",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "MemeIntent",
+      "samples": [
+        "i want {meme}",
+        "i want {meme} meme",
+        "can i have {meme} meme",
+        "can i have {meme}",
+        "choose {meme} meme",
+        "choose {meme}"
+      ],
+      "slots": [
+        {
+          "name": "meme",
+          "type": "AMAZON.Language",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "TopIntent",
+      "samples": [
+        "make top text as {top}"
+      ],
+      "slots": [
+        {
+          "name": "top",
+          "type": "AMAZON.Language",
+          "samples": []
+        }
+      ]
+    }
+  ]
+}
